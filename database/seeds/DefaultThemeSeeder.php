@@ -33,6 +33,7 @@ class DefaultThemeSeeder extends Seeder
         if($return->code == 200) {
             $this->websiteService->updateSetting('website', 'installed', 1);
         } else if($return->code == 422) {
+            $this->command->info($themePath);
             $this->command->info('Seeding aborted, theme install failed for some reason.');
             dd();
         }
