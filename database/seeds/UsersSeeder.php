@@ -41,6 +41,7 @@ class UsersSeeder extends Seeder
             'username' => $username,
             'email' => 'second@gmail.com',
             'password' => bcrypt('123456'),
+            'is_activated' => true,
             'bio' => $faker->text(rand(200, 250)),
         ]);
         $user->detachRole($admin);
