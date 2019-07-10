@@ -23,7 +23,8 @@
         "mews/purifier": "2.1.4",
         "santigarcor/laratrust": "5.2.*",
         "silber/page-cache": "^1.0",
-        "tightenco/ziggy": "0.6.9"
+        "tightenco/ziggy": "0.6.9",
+        "rinvex/laravel-bookings": "v2.1.1"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
