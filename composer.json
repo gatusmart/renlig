@@ -12,7 +12,7 @@
         "guzzlehttp/guzzle": "^6.3",
         "intervention/image": "2.5.0",
         "laraone/themes": "^1.0.0",
-        "laravel/framework": "5.7.*",
+        "laravel/framework": "5.8.*",
         "laravel/tinker": "~1.0",
         "mews/purifier": "2.1.4",
         "santigarcor/laratrust": "5.0.*",
